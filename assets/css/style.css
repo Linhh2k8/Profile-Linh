@@ -6,8 +6,8 @@ body {
   font-size: 20px;
   line-height: 1.6;
   font-weight: 400;
-  color: #324e63;
-  background-image: linear-gradient(
+  color: #000000;
+  /* background-image: linear-gradient(
   270deg,
   hsl(272deg 87% 41%) 0%,
   hsl(272deg 89% 42%) 8%,
@@ -23,7 +23,13 @@ body {
   hsl(276deg 98% 53%) 85%,
   hsl(276deg 99% 54%) 92%,
   hsl(277deg 100% 55%) 100%
-);
+); */
+  background-image:
+    radial-gradient(at 100% 0%, hsla(249,100%,80%,1) 0px, transparent 50%),
+    radial-gradient(at 9% 89%, hsla(247,100%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 99% 98%, hsla(332,100%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(323,100%,75%,1) 0px, transparent 50%);
+  background-size: 200% 200%;
   margin: 0 auto;
   width: 100%;
   font-family: "Quicksand", "Merriweather";
@@ -109,7 +115,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 img {
@@ -175,14 +181,14 @@ img {
 }
 
 .container-content-card {
-  background-color: #fff;
+
   border-radius: 10px;
   max-width: 50%;
   padding: 20px;
   box-sizing: border-box;
   margin-top: 80px;
   overflow: visible;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
 }
 
 .avatar-container {
@@ -224,7 +230,7 @@ img {
 .decs h1 {
   margin-bottom: 5px;
   margin-top: 5px;
-  color: rgb(250, 114, 227);
+  color: #000;
 }
 
 .decs p {
