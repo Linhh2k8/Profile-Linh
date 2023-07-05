@@ -199,6 +199,7 @@ img {
   left: 0;
   right: 0;
   transform: translateY(-50%)
+  margin-top: 60px;
 }
 
 .img-container {
@@ -231,6 +232,7 @@ img {
   margin-bottom: 5px;
   margin-top: 5px;
   color: #000;
+  margin-top: 50px;
 }
 
 .decs p {
